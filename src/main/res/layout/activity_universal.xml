@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".universal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/oke1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/studio1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:maxLines="3"
+        android:padding="8dp"
+        android:text="Universal Studio"
+        android:textColor="#222"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:maxLines="8"
+        android:padding="8dp"
+        android:text="Universal Studios Singapore dibuka pada bulan Januari 2010 oleh Genting Group dari Malaysia, merupakan wahana bermain Universal Studios yang pertama kali dibuka di wilayah Asia Tenggara, dan merupakan yang kedua di wilayah Asia setelah Universal Studios Japan"
+        android:textColor="#666"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/btnuniversal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isi"
+        android:layout_centerHorizontal="true"
+        android:text="Cek Rute"/>
+
+
+
+</RelativeLayout>
